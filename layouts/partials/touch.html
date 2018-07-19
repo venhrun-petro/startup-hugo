@@ -1,0 +1,61 @@
+<section class="contact" id="Contact">
+    <div class="general-container">
+        <h3 class="services_general-title">Get in touch</h3><br>
+        <strong class="services_row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</strong><br>
+        <div class="flex-container">
+            <div class="info-cont">
+                {{ range $.Site.Data.touch.touch.info }}
+                <div class="info_block">
+                    <i class="info-icon  {{ .class }}"></i>
+                    <h3 class="info_title">{{ .title }}</h3>
+                    <p class="info_txt"> {{ .text }} </p>
+                </div>
+
+                {{ end }}
+            </div>
+            <div class="registration">
+                <form id="contactForm">
+
+                    <div class="cont-imput" id="cont-imput">
+                <span>
+                <input class="myinput" name="from" type="text" placeholder="NAME">
+                  <p class="none"></p>
+                </span>
+                    </div>
+                    <div class="cont-imput">
+            <span>
+                <input class="myinput" name="email" type="email" placeholder="YOUR E-MAIL">
+               <p class="none"></p>
+            </span><br>
+                    </div>
+                    <div  class="cont-imput">
+            <span>
+              <input class="myinput" name="subject" placeholder="YOUR SUBJECT">
+             <p class="none"></p></span>
+                    </div> <div  class="cont-imput">
+          <span>
+                <input class="myinput" name="company" type="text" placeholder="COMPANY NAME">
+             <p class="none"></p>
+          </span>
+                </div>
+                    <div id="messag">
+                        <textarea name="message" placeholder="WRITE YOUR MESSAGE"></textarea>
+                        <p class="none"></p>
+                    </div>
+                    <h1 class="finisch" name="finisch" id="finisch">Thank you! Check your email for further details on data submitted.</h1>
+
+                    <button class="startup-btn" type="button" onclick="validate(this.form)">
+                        <div class="btn-hov btn-top"></div>
+                        <div class="btn-hov btn-bottom"></div>
+                        <div class="btn-hov btn-top"></div>
+                        <div class="btn-hov btn-bottom"></div>
+                        <span class="btn-txt">Send message</span>
+                    </button>
+                    <div id="prob"></div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</section>

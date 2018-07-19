@@ -1,0 +1,12 @@
+[[info]]
+    class = "fas fa-map-marker-alt"
+    title = "Address"
+    text = "312, 7th Ave, New York NY <br>101200, United States of America"
+[[info]]
+    class = "fas fa-mobile-alt"
+    title = "Hotline (24x7)"
+    text = "+65 0052 300, +65 88251 210 <br>+88 01723 511 340"
+[[info]]
+    class = "far fa-envelope"
+    title = "E-mail"
+    text = "shapedtheme@gmail.com <br>khalilkode@gmail.com"

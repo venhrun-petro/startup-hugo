@@ -1,0 +1,18 @@
+<section class="startup">
+  {{ range $.Site.Data.welcom.welcom.start }}
+  <img class="startup_img lazy-img" data-src="{{ .image }}" alt="Layer">
+  <div class="startup-opasiti">
+    <div class="startup-cont">
+      <h1 class="startup-title">{{ .title }}<br>
+        <span class="agenzi">{{ .text }}</span></h1>
+      <button class="startup-btn">
+        <div class="btn-hov btn-top"></div>
+        <div class="btn-hov btn-bottom"></div>
+        <div class="btn-hov btn-top"></div>
+        <div class="btn-hov btn-bottom"></div>
+        <span class="btn-txt">{{ .btn_name }}</span>
+      </button>
+    </div>
+  </div>
+  {{ end }}
+</section>

@@ -1,0 +1,31 @@
+<section class="my_tabs" id="Works">
+    <div class="general-container">
+        <h3 class="services_general-title">Latest Works</h3><br>
+        <div class="tabs" id="tabs">
+            <div class="tab-cont">
+                {{ range $.Site.Data.tabs.tabs.tabtitle }}
+                <h4 class="tab {{ .active }}">
+                    {{ .title }}
+                </h4>
+                {{ end }}
+            </div>
+            {{ range $.Site.Data.tabs.tabs.tabContent }}
+            <div class="tabContent">
+                {{ range .block }}
+                <div class="tabContent_block-img">
+                    <img class="tab-img lazy-img" src="{{ .src }}" alt="{{ .name }}">
+                    <div class="tabContent-hover">
+                        <div class="tabContent-hover_center">
+                            <h3 class="tab-title">{{ .title }}</h3>
+                            <p class="tab-brand">{{ .brand }}</p>
+                            <button class="tab-btn">VIEW <i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+
+    </div>
+</section>

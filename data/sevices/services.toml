@@ -1,0 +1,16 @@
+[[general]]
+    title = "Services"
+
+
+[[serv]]
+    icon = "fab fa-autoprefixer"
+    title = "Clean Typography"
+    row = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto consequatur deserunt doloremque earum facere ipsum iste iusto nesciunt nostrum obcaecati officiis provident qui quos, ratione repellendus tenetur vero voluptas?"
+[[serv]]
+    icon = "fas fa-code"
+    title = "Rock Solid Code"
+    row = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto consequatur deserunt doloremque earum facere ipsum iste iusto nesciunt nostrum obcaecati officiis provident qui quos, ratione repellendus tenetur vero voluptas?"
+[[serv]]
+    icon = "far fa-life-ring"
+    title = "Expert Support"
+    row = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto consequatur deserunt doloremque earum facere ipsum iste iusto nesciunt nostrum obcaecati officiis provident qui quos, ratione repellendus tenetur vero voluptas?"

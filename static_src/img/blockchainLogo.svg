@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="128" viewBox="0 0 143 128">
+    <defs>
+        <filter id="a" width="111.1%" height="122.3%" x="-5.2%" y="-7.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke="#00A597" stroke-width="2" filter="url(#a)" opacity=".5" transform="translate(-446 -18)">
+        <path d="M499.5 62L481 71.999v20.002L499.5 102l18.5-9.999V71.999zM536.5 82V62L518 71.999V92l18.5-10L555 92l-10.38-5.214zM462 61.998L480.5 72 499 61.998V42.002L480.5 32"/>
+        <path d="M517.5 52V32L499 42.002v19.996L517.5 72 536 61.998l-9.855-5.402z"/>
+        <path d="M518 31.998L499.5 22 481 31.998v20L499.5 62 518 51.998zM555 31.998L536.5 22 518 31.998v20L536.5 62 555 51.998zM518 91.999L499.5 82 481 91.999v20.002L499.5 122l18.5-9.999zM555 91.999L536.5 82 518 91.999v20.002L536.5 122l18.5-9.999zM499 62.002L480.5 52 462 62.002v20L480.5 92l18.5-9.998z"/>
+        <path d="M536 62.002L517.5 52 499 62.002v20L517.5 92l18.5-9.998zM573 62.002L554.5 52 536 62.002v20L554.5 92l18.5-9.998zM499 102v20"/>
+    </g>
+</svg>

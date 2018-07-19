@@ -1,0 +1,22 @@
+<section class="blog" id="blog">
+    <div class="general-container">
+        <h3 class="services_general-title">Recent blog posts</h3>
+        <br>
+        <strong class="services_row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</strong><br>
+        {{ range $.Site.Data.blog.blog.ideas }}
+        <div class="idea-container">
+            <div class="idea-container_cont-img">
+                <img class="idea-container_cont-img_img lazy-img" data-src="{{ .img }}" alt=" {{ .name }} ">
+            </div>
+            <div class="idea-container_cont-txt">
+                <p class="data"><strong>{{ .number }}</strong><br>{{ .month }}</p>
+                <h3 class="idea_title"><span class="color-red">{{ .title }} </span><br><span class="min-txt">
+                    {{ .mintxt }} <span class="color-red">{{ .mintxtred }} </span>{{ .titlemintxtblack2 }}
+                    <span class="color-red">{{ .titlemintxtblack }}</span> </span></h3>
+                <p class="idea_txt">{{ .txt }}</p>
+                <a class="more"><span class="color-red">{{ .more }}</span></a>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

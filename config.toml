@@ -1,0 +1,36 @@
+title = "Startup"
+languageCode = "en-us"
+baseURL = "startup.ua"
+
+[params]
+    [[params.menu]]
+      url = "header"
+      name = "Home"
+      weight = 1
+    [[params.menu]]
+      url = "services"
+      name = "Services"
+      weight = 2
+    [[params.menu]]
+      url = "about"
+      name = "About"
+      weight = 3
+    [[params.menu]]
+      url = "Works"
+      name = "Works"
+      weight = 4
+    [[params.menu]]
+      url = "blog"
+      name = "Blog"
+      weight = 5
+    [[params.menu]]
+      url = "client"
+      name = "Clients"
+      weight = 6
+    [[params.menu]]
+      url = "Contact"
+      name = "Contact"
+      weight = 7
+[[params.startup]]
+    title = "Welcome to STARTUP "
+

@@ -1,0 +1,26 @@
+<section class="s-lazy slider" id="about" data-sizes="50vw">
+  <div class="general-container">
+    <h3 class="services_general-title">About us</h3><br>
+    <strong class="services_row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</strong><br>
+    <div class="cont_about_text-information">
+      <p class="about_text-information">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, porro possimus! Ab, ad amet, beatae dolor eligendi ex facere maxime minus nisi, officiis omnis quia quibusdam saepe sit tempore vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, porro possimus! Ab, ad amet, beatae dolor eligendi ex facere maxime minus nisi, officiis omnis quia quibusdam saepe sit tempore vero?</p>
+      <p class="about_text-information">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, porro possimus! Ab, ad amet, beatae dolor eligendi ex facere maxime minus nisi, officiis omnis quia quibusdam saepe sit tempore vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, porro possimus! Ab, ad amet, beatae dolor eligendi ex facere maxime minus nisi, officiis omnis quia quibusdam saepe sit tempore vero?</p>
+    </div>
+    <div class="sl lazy">
+      {{ range $.Site.Data.about.about.about }}
+      <div class="sl-slide">
+        <div class="img-cont">
+          <img class="slider_img" data-lazy="{{ .src }}" alt="{{ .name }}">
+          <div class="slider_content-icon">
+            {{ range .tracks }}
+            <a class="icon-sise" href="{{.href }}"><i class="{{.clas}} icon"></i></a>
+            {{ end }}
+          </div>
+        </div>
+        <h2 class="slider_user-name">{{ .username }}</h2>
+        <p class="slider_user-status">{{ .status }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

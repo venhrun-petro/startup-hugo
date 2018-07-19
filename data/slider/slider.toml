@@ -1,0 +1,26 @@
+[[clients]]
+    txt = "Hvaing placeat facere possimus, omnis voluptas assumenda est, omnisc dolor repellendus.<br> Temporibus autem quibusdam et aut afficis debitis aut rerum*"
+    name = "John Doe, Google Inc."
+[[clients]]
+    txt = "Hvaing placeat facere possimus, omnis voluptas assumenda est, omnisc dolor repellendus.<br> Temporibus autem quibusdam et aut afficis debitis aut rerum*"
+    name = "John Doe, Google Inc."
+[[clients]]
+    txt = "Hvaing placeat facere possimus, omnis voluptas assumenda est, omnisc dolor repellendus.<br> Temporibus autem quibusdam et aut afficis debitis aut rerum*"
+    name = "John Doe, Google Inc."
+
+
+[[clientslogo]]
+    src = "img/deorham.png"
+    name = "deorham"
+[[clientslogo]]
+    src = "img/ratings.png"
+    name = "ratings"
+[[clientslogo]]
+    src = "img/malk.png"
+    name = "malk"
+[[clientslogo]]
+    src = "img/bcause.png"
+    name = "bcause"
+[[clientslogo]]
+    src = "img/womgiby.png"
+    name = "womgiby"

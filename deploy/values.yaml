@@ -1,0 +1,25 @@
+replicaCount: 2
+
+strategy:
+  type: RollingUpdate
+  maxSurge: 1
+  maxUnavailable: 1
+
+name: exonlab-site
+
+image:
+  secret: gitlab-registry
+  repository: registry.containerum.net/ch/exonlab-site
+  tag: latest
+  pullPolicy: Always
+
+service:
+  name: exonlab-site
+  externalPort: 8888
+  externalIP: 192.168.88.210
+  internalPort: 80
+
+resources: {}
+
+ingress:
+  host: sandbox.exonlab.ru

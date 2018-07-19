@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="113" viewBox="0 0 106 113">
+    <defs>
+        <filter id="a" width="107.3%" height="114.7%" x="-3%" y="-6%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke-width="2" filter="url(#a)" opacity=".5" transform="translate(8 9)">
+        <path stroke="#00A597" stroke-linecap="square" d="M56 56l16.5 9.5M11.5 29.5l17 10"/>
+        <path stroke="#979797" stroke-linecap="square" d="M14 65l15-9"/>
+        <path stroke="#00A597" stroke-linecap="square" d="M14 65l15-9M57 40l17-10M43.5 14.5v17M43.5 64.5v17"/>
+        <circle cx="79" cy="69" r="7" stroke="#00A597"/>
+        <circle cx="43" cy="48" r="15" stroke="#00A597"/>
+        <circle cx="7" cy="69" r="7" stroke="#00A597"/>
+        <circle cx="44" cy="7" r="7" stroke="#00A597"/>
+        <circle cx="78.5" cy="27.5" r="4.5" stroke="#00A597"/>
+        <circle cx="7.5" cy="27.5" r="4.5" stroke="#00A597"/>
+        <circle cx="43.5" cy="87.5" r="4.5" stroke="#00A597"/>
+    </g>
+</svg>

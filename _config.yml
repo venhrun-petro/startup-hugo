@@ -1,0 +1,288 @@
+menu:
+- url: header
+  name: Home
+- url: services
+  name: Services
+- url: about
+  name: About
+- url: Works
+  name: Works
+- url: blog
+  name: Blog
+- url: client
+  name: Clients
+- url: Contact
+  name: Contact
+
+
+exclude:
+- package.json
+- gulpfile.js
+- node_modules
+- scss
+
+
+services:
+- icon: fab fa-autoprefixer
+  title: Clean Typography
+  row: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto consequatur deserunt doloremque earum
+           facere ipsum iste iusto nesciunt nostrum obcaecati officiis provident qui quos, ratione repellendus tenetur vero
+           voluptas?
+- icon: fas fa-code
+  title: Rock Solid Code
+  row: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto consequatur deserunt doloremque earum
+           facere ipsum iste iusto nesciunt nostrum obcaecati officiis provident qui quos, ratione repellendus tenetur vero
+           voluptas?
+- icon: far fa-life-ring
+  title: Expert Support
+  row: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto consequatur deserunt doloremque earum
+           facere ipsum iste iusto nesciunt nostrum obcaecati officiis provident qui quos, ratione repellendus tenetur vero
+           voluptas?
+about-img:
+- src: images/khalil.png
+  name: khalil
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: Md. Khalil Uddin
+  status: Head of Ideas
+- src: images/rubel.png
+  name: rubel
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: Rubel Miah
+  status: Lead WordPress Developer
+- src: images/shamim.png
+  name: shamim
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: Shamim Mia
+  status: Sr. Web Developer
+- src: images/jon.png
+  name: jon
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: John Doe
+  status: Front-end Developer
+- src: images/khalil.png
+  name: khalil
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: Md. Khalil Uddin
+  status: Head of Ideas
+- src: images/rubel.png
+  name: rubel
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: Rubel Miah
+  status: Lead WordPress Developer
+- src: images/shamim.png
+  name: shamim
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: Shamim Mia
+  status: Sr. Web Developer
+- src: images/jon.png
+  name: jon
+  tracks:
+        - title: "twitter"
+          clas: "fab fa-twitter"
+        - title: "facebook"
+          clas: "fab fa-facebook-f"
+        - title: "googl"
+          clas: "fab fa-glide-g"
+        - title: "linkedin"
+          clas: "fab fa-linkedin-in"
+  user-name: John Doe
+  status: Front-end Developer
+
+
+
+tabs:
+- tabContent:
+  block:
+      - img-src: images/woman.png
+        img-name: woman
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/birdie.png
+        img-name: birdie
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/book.png
+        img-name: book
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/camera.png
+        img-name: camera
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/level.png
+        img-name: level
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/copybook.png
+        img-name: copybook
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/office.png
+        img-name: office
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/picture.png
+        img-name: picture
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/events.png
+        img-name: events
+        tab-title: Hair Dresser
+        tab-brand: Branding
+- tabContent:
+  block:
+      - img-src: images/woman.png
+        img-name: woman
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/birdie.png
+        img-name: birdie
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/book.png
+        img-name: book
+        tab-title: Hair Dresser
+        tab-brand: Branding
+- tabContent:
+  block:
+      - img-src: images/camera.png
+        img-name: camera
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/level.png
+        img-name: level
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/copybook.png
+        img-name: copybook
+        tab-title: Hair Dresser
+        tab-brand: Branding
+- tabContent:
+  block:
+      - img-src: images/office.png
+        img-name: office
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/picture.png
+        img-name: picture
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/events.png
+        img-name: events
+        tab-title: Hair Dresser
+        tab-brand: Branding
+- tabContent:
+  block:
+      - img-src: images/birdie.png
+        img-name: birdie
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/camera.png
+        img-name: camera
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/level.png
+        img-name: level
+        tab-title: Hair Dresser
+        tab-brand: Branding
+      - img-src: images/events.png
+        img-name: events
+        tab-title: Hair Dresser
+        tab-brand: Branding
+ideas:
+  - src-img: images/idea.png
+    img-name: idea
+    data-number: 18
+    data-month: OCT
+    idea-title: Startup ideas needs to be funded
+    idea-title_min-txt: By
+    idea-title_min-txt_red: Khalil
+    idea-title_min-txt_black:  Uddin in
+    idea-title_min-txt_black: Development
+    idea-txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eius eligendi facere laboriosam placeat recusandae rerum sint? Ad aspernatur aut ea enim libero magni necessitatibus reiciendis sapiente vel! Beatae, iusto.
+    idea-more: Read more
+  - src-img: images/picture.png
+    img-name: idea
+    data-number: 18
+    data-month: OCT
+    idea-title: User Interface Designing Elements
+    idea-title_min-txt: By
+    idea-title_min-txt_red: Khalil
+    idea-title_min-txt_black:  Uddin in
+    idea-title_min-txt_black: Development
+    idea-txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eius eligendi facere laboriosam placeat recusandae rerum sint? Ad aspernatur aut ea enim libero magni necessitatibus reiciendis sapiente vel! Beatae, iusto.
+    idea-more: Read more
+clients:
+  - client-txt: Hvaing placeat facere possimus, omnis voluptas assumenda est, omnisc dolor repellendus.<br> Temporibus autem quibusdam et aut afficis debitis aut rerum*
+    client-name: John Doe, Google Inc.
+  - client-txt: Hvaing placeat facere possimus, omnis voluptas assumenda est, omnisc dolor repellendus.<br> Temporibus autem quibusdam et aut afficis debitis aut rerum*
+    client-name: John Doe, Google Inc.
+  - client-txt: Hvaing placeat facere possimus, omnis voluptas assumenda est, omnisc dolor repellendus.<br> Temporibus autem quibusdam et aut afficis debitis aut rerum*
+    client-name: John Doe, Google Inc.
+clients-logo:
+  - logo-src: images/deorham.png
+    logo-name: deorham
+  - logo-src: images/ratings.png
+    logo-name: ratings
+  - logo-src: images/malk.png
+    logo-name: malk
+  - logo-src: images/bcause.png
+    logo-name: bcause
+  - logo-src: images/womgiby.png
+    logo-name: womgiby

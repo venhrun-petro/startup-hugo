@@ -1,0 +1,29 @@
+[[kart]]
+image = "fa-desktop"
+banner = "web design & development"
+description = "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean."
+
+[[kart]]
+image = "fa-paint-brush"
+banner = "branding identity"
+description = "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean."
+
+[[kart]]
+image = "fa-mobile"
+banner = "mobile app"
+description = "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean."
+
+[[kart]]
+image = "fa-pie-chart"
+banner = "search engine optimization"
+description = "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean."
+
+[[kart]]
+image = "fa-calculator"
+banner = "game development"
+description = "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean."
+
+[[kart]]
+image = "fa-heart-o"
+banner = "made with love"
+description = "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean."

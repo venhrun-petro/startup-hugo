@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "header" . }}
+<body>
+<header class="header" id="header">
+  <div class="general-container" >
+    <a class="logo" id="logo" href="#header">{{ .Title }}</a>
+    <div class="burger clearfix ">
+      <div class=burger-menu></div>
+      <div class=burger-menu></div>
+      <div class=burger-menu></div>
+    </div>
+    {{ partial "nav" . }}
+  </div>
+</header>
+
+<main class="main">
+
+  {{ partial "startup" . }}
+  {{ partial "services" . }}
+  {{ partial "about" . }}
+  {{ partial "tabs" . }}
+  {{ partial "project" . }}
+  {{ partial "blog" . }}
+  {{ partial "slider" . }}
+  {{ partial "touch" . }}
+
+
+</main>
+{{ partial "footer" . }}
+</body>
+</html>

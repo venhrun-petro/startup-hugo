@@ -1,0 +1,136 @@
+[[about]]
+  src = "img/khalil.png"
+  name = "khalil"
+  username = "Md. Khalil Uddin"
+  status = "Head of Ideas"
+  [[about.tracks]]
+          href = "twitter"
+          clas = "fab fa-twitter"
+  [[about.tracks]]
+          href = "facebook"
+          clas = "fab fa-facebook-f"
+  [[about.tracks]]
+          href = "googl"
+          clas = "fab fa-glide-g"
+  [[about.tracks]]
+          href = "linkedin"
+          clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/rubel.png"
+  name = "rubel"
+  username = "Rubel Miah"
+  status = "Lead WordPress Developer"
+    [[about.tracks]]
+            href = "twitter"
+            clas = "fab fa-twitter"
+    [[about.tracks]]
+            href = "facebook"
+            clas = "fab fa-facebook-f"
+    [[about.tracks]]
+            href = "googl"
+            clas = "fab fa-glide-g"
+    [[about.tracks]]
+            href = "linkedin"
+            clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/shamim.png"
+  name = "shamim"
+  username = "Shamim Mia"
+  status = "Sr. Web Developer"
+  [[about.tracks]]
+          href = "twitter"
+          clas = "fab fa-twitter"
+  [[about.tracks]]
+          href = "facebook"
+          clas = "fab fa-facebook-f"
+  [[about.tracks]]
+          href = "googl"
+          clas = "fab fa-glide-g"
+  [[about.tracks]]
+          href = "linkedin"
+          clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/jon.png"
+  name = "jon"
+  username = "John Doe"
+  status = "Front-end Developer"
+    [[about.tracks]]
+            href = "twitter"
+            clas = "fab fa-twitter"
+    [[about.tracks]]
+            href = "facebook"
+            clas = "fab fa-facebook-f"
+    [[about.tracks]]
+            href = "googl"
+            clas = "fab fa-glide-g"
+    [[about.tracks]]
+            href = "linkedin"
+            clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/khalil.png"
+  name = "khalil"
+  username = "Md. Khalil Uddin"
+  status = "Head of Ideas"
+  [[about.tracks]]
+          href = "twitter"
+          clas = "fab fa-twitter"
+  [[about.tracks]]
+          href = "facebook"
+          clas = "fab fa-facebook-f"
+  [[about.tracks]]
+          href = "googl"
+          clas = "fab fa-glide-g"
+  [[about.tracks]]
+          href = "linkedin"
+          clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/rubel.png"
+  name = "rubel"
+  username = "Rubel Miah"
+  status = "Lead WordPress Developer"
+    [[about.tracks]]
+            href = "twitter"
+            clas = "fab fa-twitter"
+    [[about.tracks]]
+            href = "facebook"
+            clas = "fab fa-facebook-f"
+    [[about.tracks]]
+            href = "googl"
+            clas = "fab fa-glide-g"
+    [[about.tracks]]
+            href = "linkedin"
+            clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/shamim.png"
+  name = "shamim"
+  username = "Shamim Mia"
+  status = "Sr. Web Developer"
+  [[about.tracks]]
+          href = "twitter"
+          clas = "fab fa-twitter"
+  [[about.tracks]]
+          href = "facebook"
+          clas = "fab fa-facebook-f"
+  [[about.tracks]]
+          href = "googl"
+          clas = "fab fa-glide-g"
+  [[about.tracks]]
+          href = "linkedin"
+          clas = "fab fa-linkedin-in"
+[[about]]
+  src = "img/jon.png"
+  name = "jon"
+  username = "John Doe"
+  status = "Front-end Developer"
+    [[about.tracks]]
+            href = "twitter"
+            clas = "fab fa-twitter"
+    [[about.tracks]]
+            href = "facebook"
+            clas = "fab fa-facebook-f"
+    [[about.tracks]]
+            href = "googl"
+            clas = "fab fa-glide-g"
+    [[about.tracks]]
+            href = "linkedin"
+            clas = "fab fa-linkedin-in"

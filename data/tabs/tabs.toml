@@ -1,0 +1,129 @@
+[[tabtitle]]
+    title = "All"
+    active = "whiteborder"
+[[tabtitle]]
+    title = "Branding"
+[[tabtitle]]
+    title = "Design"
+[[tabtitle]]
+    title = "Development"
+[[tabtitle]]
+    title = "Strategy"
+
+
+
+[[tabContent]]
+      [[tabContent.block]]
+            src = "img/woman.png"
+            name = "woman"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/birdie.png"
+            name = "birdie"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/book.png"
+            name = "book"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/camera.png"
+            name = "camera"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/level.png"
+            name = "level"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/copybook.png"
+            name = "copybook"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/office.png"
+            name = "office"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/picture.png"
+            name = "picture"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/events.png"
+            name = "events"
+            title = "Hair Dresser"
+            brand = "Branding"
+[[tabContent]]
+      [[tabContent.block]]
+            src = "img/woman.png"
+            name = "woman"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/birdie.png"
+            name = "birdie"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/book.png"
+            name = "book"
+            title = "Hair Dresser"
+            brand = "Branding"
+[[tabContent]]
+      [[tabContent.block]]
+             src = "img/camera.png"
+             name = "camera"
+             title = "Hair Dresser"
+             brand = "Branding"
+      [[tabContent.block]]
+             src = "img/level.png"
+             name = "level"
+             title = "Hair Dresser"
+             brand = "Branding"
+      [[tabContent.block]]
+             src = "img/copybook.png"
+             name = "copybook"
+             title = "Hair Dresser"
+             brand = "Branding"
+[[tabContent]]
+      [[tabContent.block]]
+              src = "img/office.png"
+              name = "office"
+              title = "Hair Dresser"
+              brand = "Branding"
+      [[tabContent.block]]
+              src = "img/picture.png"
+              name = "picture"
+              title = "Hair Dresser"
+              brand = "Branding"
+      [[tabContent.block]]
+              src = "img/events.png"
+              name = "events"
+              title = "Hair Dresser"
+              brand = "Branding"
+[[tabContent]]
+      [[tabContent.block]]
+            src = "img/woman.png"
+            name = "woman"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/birdie.png"
+            name = "birdie"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/book.png"
+            name = "book"
+            title = "Hair Dresser"
+            brand = "Branding"
+      [[tabContent.block]]
+            src = "img/camera.png"
+            name = "camera"
+            title = "Hair Dresser"
+            brand = "Branding"

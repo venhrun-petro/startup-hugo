@@ -1,0 +1,17 @@
+<section class="s-lazy slider" id="client" data-sizes="50vw">
+    <div class="general-container">
+        <div class="clients-logo-cont">
+            {{ range $.Site.Data.slider.slider.clientslogo }}
+            <img class="clients-logo lazy-img" data-src="{{ .src }}" alt="{{ .name }}">
+            {{ end }}
+        </div>
+        <div class="sl client">
+            {{ range $.Site.Data.slider.slider.clients }}
+            <div class="sl-slide">
+                <p class="client_txt">{{ .txt }}</p>
+                <p class="client_name">{{ .name }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+<section class="services" id="services">
+  <div class="general-container">
+    {{ range $.Site.Data.sevices.services.general }}
+    <h3 class="services_general-title">{{.title}}</h3><br>
+    <strong class="services_row">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</strong><br>
+    {{ end }}
+    {{ range $.Site.Data.sevices.services.serv }}
+    <div class="services_block">
+      <p class="icon"><span class="icon-center"><i class="{{.icon}}"></i></span></p><br>
+      <strong class="services_block_title">{{.title}}</strong><br>
+      <p class="services_block_row">{{.row}}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
